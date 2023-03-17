@@ -1,5 +1,5 @@
 # Base image
-FROM node:16.18.0 As production
+FROM node:16.15.0 As production
 
 # Create app directory
 WORKDIR /usr/src/app
